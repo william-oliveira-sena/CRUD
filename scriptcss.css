@@ -1,0 +1,67 @@
+div#saida{
+    border-radius: 20px;
+    background-color:#008080;
+   
+    margin-right: 400px;
+    margin-left: 700px;
+    margin-top: 50px;
+    width: 600px;
+    height: 550px;
+    position: absolute;
+
+}
+div#fundo{
+    border-radius: 20px;
+    background-color:#008080;
+    align-items: center;
+    margin-right: 400px;
+    margin-left: 140px;
+    margin-top: 150px;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+
+}
+div#cabecalho{
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #48D1CC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;        
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    height: 70px;
+    width: 380px;
+    text-align: center;
+    }
+div#form{
+    font-weight: bold;
+ 
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 16px;
+    
+   
+}
+input[type=text], input[type=tel], input[type=date]{
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    padding: 10px;
+    width: 800;
+    border: 1px solid #999;
+    outline: 0;
+    
+}
+div#botao{
+    border-bottom: 50px;
+    margin-top: 16px;
+    margin-left: 280px;
+        
+}
