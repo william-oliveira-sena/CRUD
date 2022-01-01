@@ -1,11 +1,12 @@
 // Formatação e teste do telefone se celular ou fixo para salvar na formatação correto com traço
- 
+// font https://www.alura.com.br/artigos/criando-uma-mascara-de-telefone-com-javascript?gclid=CjwKCAiA8bqOBhANEiwA-sIlNzibkNDXpyB2Qph_CMDk6q3x2uJRtAh2LsuRNkBIipQSrQVmJst1ZRoCKgEQAvD_BwE
+
    function tiraHifen(telefone) {
     const textoAtual = telefone.value;
     const textoAjustado = textoAtual.replace(/\-/g, '' );
 
     telefone.value = textoAjustado;
-    console.log(textoAjustado);
+    
 }
 
     function mascaraDeTelefone(telefone){

@@ -1,4 +1,5 @@
-div#saida{
+
+div#saida1{
     border-radius: 20px;
     background-color:#008080;
    
@@ -37,8 +38,7 @@ div#cabecalho{
     text-align: center;
     }
 div#form{
-    font-weight: bold;
- 
+    font-weight: bold; 
     width: 400px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -47,8 +47,6 @@ div#form{
     padding: 3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     size: 16px;
-    
-   
 }
 input[type=text], input[type=tel], input[type=date]{
     background-color: #E6E6FA;
@@ -57,11 +55,24 @@ input[type=text], input[type=tel], input[type=date]{
     width: 800;
     border: 1px solid #999;
     outline: 0;
-    
+        
 }
 div#botao{
     border-bottom: 50px;
     margin-top: 16px;
     margin-left: 280px;
         
+}
+
+div#saida{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E0FFFF;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    max-height: 490px;
+   
 }

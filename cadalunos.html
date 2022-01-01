@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro e Exibição de Alunos</title>
    <link rel="stylesheet" href="scriptcss.css">
+    <script src="script.js">
+ </script>
 </head>
-<body>
+<body> 
         <div id="fundo">
             <div id="cabecalho">
               <h2> Cadastro de Alunos</h2>
@@ -21,7 +23,7 @@
         
             <div id="form">
                 Telefone
-                <input type="tel" id="telefone" placeholder="Digite seu telefone">
+                <input type="tel" id="telefone" placeholder="99-9999-9999 ou 99-9999-99999" onblur="mascaraDeTelefone(this)"onfocus="tiraHifen(this)">
                 
 
             </div>
@@ -34,12 +36,15 @@
                 <input type="text" id="nota" placeholder="Digite sua nota">
             </div>
             <div id="botao">
-                <button type="submit" onclick="criauser()">Criar Usuário</button>
+                <button type="submit" onclick="cadastrar()">Criar Usuário</button>
             </div>
         </div>
     
-    <div id="saida">
+    <div id="saida1">      
+            
+        <div id="saida">
 
+        </div>
     </div>
 </body>
 </html>
