@@ -46,9 +46,12 @@
            
 
         let elemento = document.getElementById("saida");
+       
     
     
-     elemento.innerHTML += " Nome: " + cadalunos[totalcad].nome + "<br>" + "Telefone:" + cadalunos[totalcad].telefone + "<br>" + "Data de Nascimento:" + cadalunos[totalcad].nascimento + "<br>" + "Nota:" + cadalunos[totalcad].nota + "<br><br>";
+     elemento.innerHTML += " Nome: " + cadalunos[totalcad].nome + "<br>" + "Telefone:" + cadalunos[totalcad].telefone + "<br>" + "Data de Nascimento:" + cadalunos[totalcad].nascimento + "<br>" + "Nota:" + cadalunos[totalcad].nota  + "<br><br>";
 
-    totalcad++;
+     totalcad++;
+
+     alert("Cadastro realizado com sucesso!");
 }

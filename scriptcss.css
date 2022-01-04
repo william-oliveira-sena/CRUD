@@ -1,15 +1,13 @@
 
 div#saida1{
     border-radius: 20px;
-    background-color:#008080;
-   
+    background-color:#008080;   
     margin-right: 400px;
     margin-left: 700px;
     margin-top: 50px;
     width: 600px;
     height: 550px;
     position: absolute;
-
 }
 div#fundo{
     border-radius: 20px;
@@ -21,13 +19,11 @@ div#fundo{
     width: 400px;
     height: 380px;
     position: absolute;
-
 }
 div#cabecalho{
     color: white;
     font-weight: bold;
-    border-radius: 20px;
-   
+    border-radius: 20px;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 10px;
     margin-right: 10px;        
@@ -37,7 +33,7 @@ div#cabecalho{
     height: 60px;
     width: 380px;
     text-align: center;
-    }
+}
 div#linha{
     background-color: #48D1CC;
     margin-left: 10px;
@@ -68,10 +64,8 @@ input[type=text], input[type=tel], input[type=date]{
 div#botao{
     border-bottom: 50px;
     margin-top: 16px;
-    margin-left: 280px;
-        
+    margin-left: 280px;        
 }
-
 div#saida{
     margin-right: 5%;
     margin-left: 5%;
@@ -81,6 +75,5 @@ div#saida{
     overflow: auto;
     display: flex;
     flex-direction: row;
-    max-height: 490px;
-   
+    max-height: 490px;   
 }
